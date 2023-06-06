@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yoldost_app_ui/home_screen.dart';
+import 'package:yoldost_app_ui/bottom_nav_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(
+      home: BottomNavBar(
       ),
     );
   }
